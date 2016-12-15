@@ -30,18 +30,18 @@ alias -- -="cd -"
 alias pingy="ping www.yahoo.com"
 
 # Shortcuts
-alias d="cd /Volumes/Documents/"
-alias dl="cd /Volumes/Downloads/FromWeb"
-alias dt="cd /Volumes/Desktop"
-alias p="cd /Volumes/projects"
-alias pc="cd /Volumes/AAW-MB-2/clients"
-alias pl="cd /Volumes/AAW-MB-2/playground"
+alias d="cd ~/Documents/"
+alias dl="cd ~/Downloads/FromWeb"
+alias dt="cd ~/Desktop"
+alias p="cd ~/projects"
+alias pc="cd ~/projects/clients"
+alias pl="cd ~/projects/playground"
 alias g="git"
 alias h="history"
 alias j="jobs"
 alias aliases="code ~/.aliases"
 alias edithosts="sudo code /etc/hosts"
-alias doc="cd  /Volumes/projects/playground/docker && ls"
+alias doc="cd  ~/projects/playground/docker && ls"
 
 # Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update'
